@@ -3,7 +3,7 @@ local function fetch(url)
     return ok and res or nil
 end
 
-loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubGAG2/main/Lunar1.lua"))()
+loadstring(fetch("https://raw.githubusercontent.com/ItsLunarHub/LunarHubJB/main/Lunar1.lua"))()
 
 repeat task.wait(0.1) until _G.LH ~= nil
 
